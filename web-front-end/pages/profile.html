@@ -25,7 +25,7 @@
 
     <script>
         async function loadUserProfile() {
-            const response = await fetch('http://127.0.0.1:5500/auth/user',{
+            const response = await fetch('http://127.0.0.1:4001/auth/user',{
                 credentials:"include"
             });
             const user = (await response.json())?.payload;
@@ -44,7 +44,7 @@
             const username = document.getElementById('username').value;
             const contact_number = document.getElementById('contact_number').value;
             const email = document.getElementById('email').value;
-            const response = await fetch('http://127.0.0.1:5500/auth/user', {
+            const response = await fetch('http://127.0.0.1:4001/auth/user', {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ username, email, contact_number }),
