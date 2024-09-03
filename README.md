@@ -1,5 +1,7 @@
 # Analysis of "Delete User Functionality After Authentication"
 
+![ExpressJS](https://pbs.twimg.com/media/GVE2FgZXoAApFp3?format=jpg&name=small)
+
 ## Introduction
 In this section, we'll evaluate the requirement that the delete user functionality can be executed after authentication in the context of an Express.js-based application. We will also clarify the differences between authentication and authorization, exploring whether this requirement is a good or bad idea based on security best practices.
 
